@@ -38,7 +38,7 @@ TODO @Luoadore 补充
 输出：用户点击观看时输出为实时画面，有异常时输出可能出现的异常提示窗口。
 
 ### 整体页面
-简洁大方
+简洁大方。
 首页分为两部分，整体背景之上大标题。
 ![https://github.com/nku-palette/palette/blob/luo-code/design/index.png]
 向下滑动鼠标，出现选择按钮，分别为photo和vedio对应的小宠物检测。
@@ -65,7 +65,8 @@ TODO @Luoadore 补充
 ## 前端与后端服务的API接口设计
 
 ### 图片预测接口
-
+输入：图片序列
+输出：图片是否有小宠物，小宠物名称及可能性。
 ### 视频流检测接口
 
 ### 结果返回接口
@@ -75,4 +76,5 @@ TODO @Luoadore 补充
 ## 后端服务与模型服务API接口设计
 
 TODO
+
 
