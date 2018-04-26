@@ -85,12 +85,54 @@ TODO @Luoadore 补充
 ## 前端与后端服务的API接口设计
 
 ### 图片预测接口
-输入：图片序列
+Request
 
-输出：图片是否有小宠物，小宠物名称及可能性。
+POST /palette/pictures HTTP/1.1
+
+Host: api.luoadore.org
+
+Accpet: application/json
+
+Content-Type: application/jpg,png,etc
+
+Content-Length:
+
+{
+
+'id':
+
+'data':
+
+}
+### 图片预测结果返回接口
+Response
+
+HTTP/1.1 200 OK
+
+Date:
+
+Content-Type: application/json
+
+Access-Control-Max-picture: (要是有《硅谷》那个压缩算法就不用定义了耶)
+
+Cache-Control:
+
+{
+
+"id":
+
+'data':
+
+'categroy':
+
+'score':
+
+'non-animal': (如果没有小动物输出的信息，但创建这个是不是有点浪费)
+
+}
 ### 视频流检测接口
 
-### 结果返回接口
+
 
 ### 报错接口
 
@@ -100,3 +142,4 @@ TODO
 
 
 
+Edit By [MaHua](http://mahua.jser.me)
