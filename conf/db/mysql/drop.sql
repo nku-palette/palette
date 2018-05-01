@@ -1,6 +1,8 @@
-drop table modocube_dataset_metas
-drop table modocube_datasets
-drop table modocube_model_metas
-drop table modocube_models
-drop table modocube_domains
-drop table modocube_scenes
+DROP TABLE palette_devices
+DROP TABLE palette_medias
+DROP TABLE palette_pets
+DROP TABLE palette_scenes
+DROP TABLE palette_services
+DROP TABLE palette_user_authorization
+DROP TABLE palette_user_groups
+DROP TABLE palette_users
